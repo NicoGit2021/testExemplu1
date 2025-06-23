@@ -1,0 +1,27 @@
+{
+  "name": "testexmplu1",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000e\u0000s\u0000t\u0000E\u0000x\u0000e\u0000m\u0000p\u0000l\u0000u\u00001\u0000\r\u0000 \u0000",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoGit2021/testExemplu1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoGit2021/testExemplu1/issues"
+  },
+  "homepage": "https://github.com/NicoGit2021/testExemplu1#readme",
+  "dependencies": {
+    "validator": "^13.15.15"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
