@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"></link>
-<<<<<<< HEAD
     <title>Document</title>
 </head>
 <body>
     
 <script src="script.js"></script>
 </body>
-=======
     <title>Test exemplu</title>
     
 </head>
 <body>
-    <form>
-        <input type="email"></input>
-        <input type="password"></input>
-        <input type="date"></input>
-        <input type="checkbox"></input>
+    <form action="/action_page.php" method="post">
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" required placeholder="doc@cat.com"></input>
+        <label for = "password">Password:</label>
+        <input  id="password" type="password" name="password" required minlength="3" placeholder="minim 3 caractere"></input>
+        <label for="birthday">Birthday:</label>
+        <input id="birthday" type="date" name="birthday" required ></input>
+        <label for ="checkbox">Am citit si sunt de acord cu termenii si conditiile de utilizare</label>
+        <input id="checkbox" type="checkbox" required name="checkbox" ></input>
+        <button id="formButton" type="submit">Trimite</button>
     </form>
     
 </body>
 <script src="script.js"></script>
->>>>>>> 6baf0cc828a16b81a0e7d3497ed68f0a9c744f9e
 </html>
