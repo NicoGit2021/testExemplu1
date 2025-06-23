@@ -14,15 +14,23 @@
     
 </head>
 <body>
-    <form action="/action_page.php" method="post">
-        <label for="email">Email:</label>
-        <input id="email" type="email" name="email" required placeholder="doc@cat.com"></input>
-        <label for = "password">Password:</label>
-        <input  id="password" type="password" name="password" required minlength="3" placeholder="minim 3 caractere"></input>
-        <label for="birthday">Birthday:</label>
-        <input id="birthday" type="date" name="birthday" required ></input>
-        <label for ="checkbox">Am citit si sunt de acord cu termenii si conditiile de utilizare</label>
-        <input id="checkbox" type="checkbox" required name="checkbox" ></input>
+    <form id="form" action="/action_page.php" method="post">
+        <div class="inputs">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" required placeholder="doc@cat.com"></input>
+        </div>
+        <div class="inputs">
+            <label for = "password">Password:</label>
+            <input  id="password" type="password" name="password" required minlength="3" placeholder="minim 3 caractere"></input>
+        </div>
+        <div class="inputs">
+            <label for="birthday">Birthday:</label>
+            <input id="birthday" type="date" name="birthday" required ></input>
+        </div>
+        <div >
+            <label for ="checkbox">Am citit si sunt de acord cu termenii si conditiile de utilizare</label>
+            <input id="checkbox" type="checkbox" required name="checkbox" ></input>
+        </div>
         <button id="formButton" type="submit">Trimite</button>
     </form>
     
